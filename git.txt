@@ -1,0 +1,8 @@
+git init
+git add .
+git commit -m "message"
+git remote add origin "github.com/your_repo.git"
+git push -u origin master
+git checkout -b "master"
+
+https://github.com/RajeshwarRS/Embedded_C.git
