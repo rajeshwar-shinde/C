@@ -1,6 +1,3 @@
-
-
-uinst_t data[4]= {0};
 #pragma once
 #include <iostream>
 #include <string>
@@ -11,6 +8,7 @@ using namespace std;
 
 string get_cpu_name()
 {
+ uinst_t data[4]= {0};
 _asm{
 cpuid;
 mov data[0],ebx;
