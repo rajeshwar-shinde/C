@@ -1,0 +1,29 @@
+1> Link-Time Optimization
+ 
+	gcc -flto -O2 filename.c -o output
+
+2> Generate dependency file
+
+	gcc -M filename.c
+
+3> Control inline functions
+
+	gcc -fno-inline filename.c -o output
+
+4> Optimize specific architecture 
+
+	gcc -march=armv7-a -mtune=cortex-a9 filename.c -o output
+
+5> Generate preprocessed output
+	
+	gcc -E filename.c -o output.i
+
+6> Control stack protection
+
+	gcc -fstack-protector-all filename.c -o output
+
+7> Speculative execution control
+
+	gcc -mindirect-branch=thunk-extern -mfunction-return=thunk-extern filename.c -o output
+
+
