@@ -1,3 +1,3 @@
 # Embedded-C course submissions
 
-This repository contains all the course submissions for the Embedded-C course.
+This repository contains the miscellaneous notes for GNU GCC, Linker script etc.
